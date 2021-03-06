@@ -1,4 +1,4 @@
-package kr.ohurjon.baseplugin
+package kr.ohurjon.nms
 
 import org.bukkit.event.Event
 import org.bukkit.event.EventHandler

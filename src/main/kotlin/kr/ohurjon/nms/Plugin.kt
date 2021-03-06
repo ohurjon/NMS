@@ -1,4 +1,4 @@
-package kr.ohurjon.baseplugin
+package kr.ohurjon.nms
 
 import kr.entree.spigradle.annotations.SpigotPlugin
 import org.bukkit.event.Event

@@ -28,7 +28,7 @@ dependencies {
     compileOnly 'org.codehaus.plexus:plexus-utils:2.0.6'
 
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly spigot("1.12.2")  //TODO
+    compileOnly spigot("1.12.2")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
@@ -43,9 +43,8 @@ compileTestKotlin {
 
 spigot {
     authors 'ohurjon'
-    apiVersion //TODO
-    description 'The BasePlugin'
-    depends  //TODO
+    apiVersion "1.12.2"
+    description 'The NMS'
 }
 
 task relocateShadowJar(type: ConfigureShadowRelocation) {
